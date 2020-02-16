@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".SearchActivity">
+
+    <TextView
+        android:id="@+id/tv_search2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/forecasts_header"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        tools:text="@string/tv_search" />
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:text="@string/btn_search" />
+
+    <EditText
+        android:id="@+id/et_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/tv_search2"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="37.8267,-122.4233" />
+
+    <EditText
+        android:id="@+id/et_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/et_location"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="2018-12-09 08:00:00 UTC" />
+
+    <EditText
+        android:id="@+id/et_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/et_time"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="57.86" />
+
+    <EditText
+        android:id="@+id/et_humidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/et_temp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="84.0" />
+
+    <EditText
+        android:id="@+id/et_speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/et_humidity"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="10.47" />
+
+    <EditText
+        android:id="@+id/et_direction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/et_speed"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="147" />
+
+    <EditText
+        android:id="@+id/et_summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/et_direction"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Rain and breezy starting in the evening." />
+
+    <TextView
+        android:id="@+id/tv_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/et_location"
+        android:layout_alignStart="@+id/tv_summary"
+        android:text="@string/tv_search_location"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_time"
+        android:layout_toStartOf="@+id/tv_search2"
+        android:text="@string/tv_search_temperature"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_Time3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/et_location"
+        android:layout_marginStart="64dp"
+        android:text="@string/tv_search_time"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_Humidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tv_location"
+        android:layout_below="@+id/et_temp"
+        android:text="@string/tv_search_humidity"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_wind_direction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_speed"
+        android:layout_toStartOf="@+id/et_location"
+        android:text="@string/tv_search_direction"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_direction"
+        android:layout_toStartOf="@+id/btn_search"
+        android:text="@string/tv_search_summary"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_wind_speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_humidity"
+        android:layout_toStartOf="@+id/tv_search2"
+        android:text="@string/tv_search_speed"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>

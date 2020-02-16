@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="saved_location2"
+        android:title="Saved Location"
+        android:summary="Change the location to get different weather forecasts"
+        android:defaultValue="37.8267,-122.4233">
+    </EditTextPreference>
+    <EditTextPreference
+        android:key="saved_location3"
+        android:title="Saved Location"
+        android:summary="Change the location to get different weather forecasts"
+        android:defaultValue="37.8267,-122.4233">
+    </EditTextPreference>
+    <EditTextPreference
+        android:key="saved_location4"
+        android:title="Saved Location"
+        android:summary="Change the location to get different weather forecasts"
+        android:defaultValue="37.8267,-122.4233">
+    </EditTextPreference>
+    <EditTextPreference
+        android:key="saved_location5"
+        android:title="Saved Location"
+        android:summary="Change the location to get different weather forecasts"
+        android:defaultValue="37.8267,-122.4233">
+    </EditTextPreference>
+    <EditTextPreference
+        android:key="saved_location6"
+        android:title="Saved Location"
+        android:summary="Change the location to get different weather forecasts"
+        android:defaultValue="37.8267,-122.4233">
+    </EditTextPreference>
+    <EditTextPreference
+        android:key="saved_location7"
+        android:title="Saved Location"
+        android:summary="Change the location to get different weather forecasts"
+        android:defaultValue="37.8267,-122.4233">
+    </EditTextPreference>
+    <EditTextPreference
+        android:key="saved_location8"
+        android:title="Saved Location"
+        android:summary="Change the location to get different weather forecasts"
+        android:defaultValue="37.8267,-122.4233">
+    </EditTextPreference>
+    <EditTextPreference
+        android:defaultValue="37.8267,-122.4233"
+        android:key="saved_location1"
+        android:summary="Change the location to get different weather forecasts"
+        android:title="Saved Location"></EditTextPreference>
+    <EditTextPreference
+        android:defaultValue="37.8267,-122.4233"
+        android:key="saved_location10"
+        android:summary="Change the location to get different weather forecasts"
+        android:title="Saved Location"></EditTextPreference>
+    <EditTextPreference
+        android:defaultValue="37.8267,-122.4233"
+        android:key="saved_location9"
+        android:summary="Change the location to get different weather forecasts"
+        android:title="Saved Location"></EditTextPreference>
+</PreferenceScreen>

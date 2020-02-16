@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Will The Sun Shine Again?</string>
+    <string name="header">Welcome!</string>
+    <string name="location_header">Save some locations!</string>
+    <string name="location_preferences">Location Preferences</string>
+    <string name="goto_main">Home</string>
+    <string name="btn_download">Get Forecasts</string>
+    <string name="btn_search">Search</string>
+    <string name="btn_delete">Delete</string>
+    <string name="default_tv_summary">There are no forecasts saved.</string>
+    <string name="forecasts_header">Forecasts</string>
+    <string name="btn_view_forecasts">View Forecasts</string>
+    <string name="et_locations_default">Locations</string>
+    <string name="btn_browse">Browse</string>
+    <string name="tv_search">Search</string>
+    <string name="et_summary_default">Summary here</string>
+    <string name="et_temp_default">Temperature</string>
+    <string name="et_wind_speed_default">Wind Speed</string>
+    <string name="downloaded">Forecasts downlaoded!</string>
+    <string name="tv_temp_head">Temperature</string>
+    <string name="tv_speed_head">Wind Speed</string>
+    <string name="tv_direction_head">Wind Direction</string>
+    <string name="tv_humidity_head">Humidity</string>
+    <string name="btn_refresh">Refresh</string>
+    <string name="tv_search_time">Time</string>
+    <string name="tv_search_location">Location</string>
+    <string name="tv_search_temperature">Temperature</string>
+    <string name="tv_search_humidity">Humidity</string>
+    <string name="tv_search_speed">Wind Speed</string>
+    <string name="tv_search_direction">Wind Direction</string>
+    <string name="tv_search_summary">Summary</string>
+</resources>
